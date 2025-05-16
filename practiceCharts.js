@@ -46,7 +46,7 @@ new Chart(lineCanvas, {
 }
 )
 
-
+//mixed chart attempt
 const scatterCanvas = document.getElementById('scatter').getContext('2d'); 
 
 new Chart(scatterCanvas, {
