@@ -66,21 +66,16 @@ new Chart(scatterCanvas, {
     borderWidth: 1,
     backgroundColor: 'rgba(60, 145, 21, 0.7)',
   }, {
-    type: 'line',
+  type: 'line',
     label: 'Average Steps',
     data: [
-      { x: 0, y: 8000 },
-      { x: 1, y: 8000 },
-      { x: 2, y: 8000 },
-      { x: 3, y: 8000 },
-      { x: 4, y: 8000 },
-      { x: 5, y: 8000 },
+      { x: 0, y: 8000 }, // from x=0 to x=6
       { x: 6, y: 8000 }
     ],
-    borderWidth: 2,
-    backgroundColor: 'rgba(254, 34, 14, 0.5)',
-    pointRadius: 3,
-  
+    borderWidth: 3,
+    borderColor: 'rgba(223, 31, 14, 0.5)',
+    pointRadius: 0,
+
   }]
 },
     options: {

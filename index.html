@@ -5,12 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chartjs Chart Practice</title>
     <script src= "https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
-    canvas { max-width: 800px; margin: 20px auto; display: block; }
-    h2 { 
-        text-align: center; 
-    }
-    </style>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ede9db;
+    color: #000000;
+    padding: 15rem;
+  }
+
+  .chart-container {
+    background: rgb(13, 72, 92);
+    border-radius: 10px;
+    padding: 5rem;
+    margin: 5rem auto;
+    max-width: 500px;
+    canvas {
+      max-width: 100%;
+      height: auto;
+    }   
+  }
+
+  h2 {
+    text-align: center;
+  }
+  
+</style>
 </head>
 <body>
     <h2>Bar Chart</h2>
@@ -20,7 +39,7 @@
     <canvas id="lineChart"></canvas>
 
 
-    <h2>ScatterPlot</h2>
+    <h2>Scatterplot</h2>
     <canvas id="scatter"></canvas>
 
     <script src="practiceCharts.js"></script>
